@@ -2,6 +2,6 @@ name: 'DBTProject'
 
 version: '1.0.0'
 
-project-config: 1
+config-version: 2
 
 profile: 'snowflake'

@@ -2,6 +2,6 @@ name: 'DBTProject'
 
 version: '1.0.0'
 
-project-config: 1
+require-dbt-version: 1.4
 
 profile: 'snowflake'

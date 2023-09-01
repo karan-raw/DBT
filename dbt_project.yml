@@ -2,4 +2,4 @@ name: 'DBTProject'
 
 version: '1.0.0'
 
-profile: 'redshift'
+profile: 'snowflake'

@@ -11,7 +11,7 @@
 #       user: load_user_dc_frontendtest_003
 #   target: redshift
 
-my-snowflake-db:
+snowflake:
   target: dev
   outputs:
     dev:
@@ -22,7 +22,7 @@ my-snowflake-db:
       user: load_user_dc_frontendtest_006
       password: Nze74o4v5Jx36cCm
 
-      role: admin
+      # role: admin
       database: dc_frontendtest_006
       warehouse: COMPUTE_WH
       schema: DC_DC_FRONTENDTEST_006

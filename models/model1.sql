@@ -4,4 +4,4 @@
     )
 }}
 
-select * from dc_dc_frontendtest_006.airtbl_k_table_report_kr
+select * from dc_dc_frontendtest_003.airtbl_k_table_report_kr

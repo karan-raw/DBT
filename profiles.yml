@@ -1,31 +1,31 @@
-# redshift:
-#   outputs:
-#     redshift:
-#       dbname: dc_frontendtest_003
-#       host: datachannel-dev-3.ca0fbmphxrad.us-east-1.redshift.amazonaws.com
-#       password: RBo1tG9p86fo61ni
-#       port: 5439
-#       schema: dc_dc_frontendtest_003
-#       sslmode: require
-#       type: redshift
-#       user: load_user_dc_frontendtest_003
-#   target: redshift
-
-snowflake:
-  target: dev
+redshift:
   outputs:
-    dev:
-      type: snowflake
-      account: kia74307.us-east-1
+    redshift:
+      dbname: dc_frontendtest_003
+      host: datachannel-dev-3.ca0fbmphxrad.us-east-1.redshift.amazonaws.com
+      password: RBo1tG9p86fo61ni
+      port: 5439
+      schema: dc_dc_frontendtest_003
+      sslmode: require
+      type: redshift
+      user: load_user_dc_frontendtest_003
+  target: redshift
 
-      # User/password auth
-      user: load_user_dc_frontendtest_006
-      password: Nze74o4v5Jx36cCm
+# snowflake:
+#   target: dev
+#   outputs:
+#     dev:
+#       type: snowflake
+#       account: kia74307.us-east-1
 
-      # role: admin
-      database: dc_frontendtest_006
-      warehouse: COMPUTE_WH
-      schema: DC_DC_FRONTENDTEST_006
-      threads: 1
-      client_session_keep_alive: False
-      query_tag: Tag
+#       # User/password auth
+#       user: load_user_dc_frontendtest_006
+#       password: Nze74o4v5Jx36cCm
+
+#       # role: admin
+#       database: dc_frontendtest_006
+#       warehouse: COMPUTE_WH
+#       schema: DC_DC_FRONTENDTEST_006
+#       threads: 1
+#       client_session_keep_alive: False
+#       query_tag: Tag
